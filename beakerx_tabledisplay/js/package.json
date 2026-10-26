@@ -108,6 +108,14 @@
       "@jupyter-widgets/base": {
         "bundled": false,
         "singleton": true
+      },
+      "@lumino/datagrid": {
+        "bundled": true,
+        "singleton": false
+      },
+      "@lumino/datastore": {
+        "bundled": true,
+        "singleton": false
       }
     }
   }

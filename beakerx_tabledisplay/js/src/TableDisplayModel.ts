@@ -27,6 +27,9 @@ export class TableDisplayModel extends widgets.DOMWidgetModel {
       _view_module: 'beakerx_tabledisplay',
       _model_module_version: BEAKERX_MODULE_VERSION,
       _view_module_version: BEAKERX_MODULE_VERSION,
+      model: {},
+      updateData: {},
+      loadMoreRows: 'loadMoreServerInit',
     };
   }
 }

@@ -275,8 +275,8 @@ class TableDisplay(BeakerxDOMWidget):
     _model_name = Unicode('TableDisplayModel').tag(sync=True)
     _view_module = Unicode('beakerx_tabledisplay').tag(sync=True)
     _model_module = Unicode('beakerx_tabledisplay').tag(sync=True)
-    _model_module_version = Unicode('*').tag(sync=True)
-    _view_module_version = Unicode('*').tag(sync=True)
+    _model_module_version = Unicode('2.4.4').tag(sync=True)
+    _view_module_version = Unicode('2.4.4').tag(sync=True)
 
     loadingMode = 'ALL'
     timeZoneGlobal = None

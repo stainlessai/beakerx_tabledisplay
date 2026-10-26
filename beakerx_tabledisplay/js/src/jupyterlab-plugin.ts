@@ -23,7 +23,7 @@ import { BEAKERX_MODULE_VERSION } from './version';
 
 const plugin: JupyterFrontEndPlugin<void> = {
   id: 'beakerx_tabledisplay:plugin',
-  requires: [IJupyterWidgetRegistry],
+  requires: [IJupyterWidgetRegistry] as any,
   optional: [IThemeManager],
   autoStart: true,
   activate: (app: JupyterFrontEnd, widgets: IJupyterWidgetRegistry, themeManager: IThemeManager | null): void => {
